@@ -1,0 +1,91 @@
+@import '../../shared/Styles/variables.scss';
+
+.hero-wrapper {
+    img {
+        position: absolute;
+        right: 0;
+        top: 15%;
+        transform: translateY(-15%);
+        width: 230px;
+        height: 230px;
+        object-fit: contain;
+        animation: animateGetInTouch 7s linear infinite;
+        
+        @media (max-width: 1390px) {
+            width: 150px;
+            height: 150px;
+        }
+        @media (max-width: 992px) {
+            top: 0;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    
+    &__content {
+        padding-bottom: 48px;
+
+        h3 {
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 44px;
+            margin-bottom: 10px;
+
+            @media (max-width: 992px) {
+                margin-bottom: 0;
+                font-size: 24px;
+            }
+        }
+    
+        h1 {
+            font-family: 'Panchang-extra-bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            width: 90%;
+            line-height: 112%;
+            margin-bottom: 37px;
+    
+            @media (max-width: 1390px) {
+                font-size: 52px;
+                width: 80%;
+                line-height: 1;
+                margin-bottom: 20px;
+            }
+            
+            @media (max-width: 992px) {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+        }
+    
+        button {
+            width: 429px;
+            height: 100px;
+            background: #222222;
+            border-radius: 50px;
+    
+            font-family: 'Panchang-semi-bold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.04em;
+            color: #FFFFFF;
+            
+            @media (max-width: 1390px) {
+                height: 70px;
+                width: 350px;
+                font-size: 18px;
+                border-radius: 40px;
+            }
+
+            @media (max-width: 992px) {
+                height: 50px;
+                width: 250px;
+                font-size: 14px;
+                border-radius: 25px;
+            }
+        }
+    }
+}

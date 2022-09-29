@@ -1,0 +1,12 @@
+.custom-cursor {
+    width: 200px;
+    height: 200px;
+    border: 50%;
+    background: radial-gradient(84.49% 84.49% at 25.55% 42.85%, 
+   #FA58C3 0%, #7DF7FF 100%);
+    opacity: 1;
+    filter: blur(75px);
+    transform: rotate(10deg);
+    position: fixed;
+    z-index: -1000;
+}

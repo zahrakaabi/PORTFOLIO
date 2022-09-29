@@ -1,0 +1,159 @@
+.contact-wrapper {
+    height: 100vh;
+    min-height: 100vh;
+    margin: 60px 0;
+
+    @media (max-width: 1400px) {
+        padding: 20px 0;
+    }
+
+    @media (max-width:1200px) {
+        height: fit-content;
+    }
+
+    .contact-container {
+        align-items: flex-end !important;
+
+        &__content {
+            position: relative;
+            // the height of button + mb of textarea
+            margin-bottom: calc(100px + 40px);
+
+            @media (max-width: 1400px) {
+                display: block;
+                margin-bottom: calc(70px + 40px);
+            }
+
+            @media (max-width: 992px) {
+                margin: 40px 0;
+            }
+
+            h4 {
+                width: 20ch;
+                font-family: 'Panchang';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 120%;
+                letter-spacing: -0.055em;
+                color: #000000;
+                
+                @media (max-width: 1400px) {
+                    font-size: 18px;
+                }
+                
+                @media (max-width: 992px) {
+                    width: fit-content;
+                }
+            }
+
+            img {
+                position: absolute;
+                right: 180px;
+                bottom: 0;
+
+                @media (max-width: 1400px) {
+                    right: 70px;
+                }
+
+                @media (max-width: 1300px) {
+                    position: relative;
+                    right: 0;
+                }
+            }
+        }
+
+        &__form {
+            .group-form {
+                margin-bottom: 40px;
+
+                @media (max-width: 992x) {
+                    margin-bottom: 20px;
+                }
+            }
+
+            label {
+                font-family: 'Panchang-semi-bold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 120%;
+                letter-spacing: -0.055em;
+
+                @media (max-width: 992px) {
+                    font-size: 16px;
+                }
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                border-bottom: 3px solid #000;
+
+                &::placeholder {
+                    font-family: 'Panchang-semi-bold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                    letter-spacing: -0.055em;
+                    color: #CACACA;
+                    
+                    @media (max-width: 992px) {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            input {
+                height: 50px;
+
+                @media (max-width: 1400px) {
+                    height: 40px;
+                }
+            }
+
+            textarea {
+                height: 230px;
+                padding-top: 15px;
+                
+                @media (max-width: 1400px) {
+                    height: 170px;
+                }
+            }
+
+            input[type="submit"] {
+                float: right;
+                width: 429px;
+                height: 100px;
+                background: #222222;
+                border-radius: 50px;
+                cursor: pointer;
+
+                font-family: 'Panchang-semi-bold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.04em;
+                color: #FFFFFF;
+                
+                @media (max-width: 1400px) {
+                    height: 70px;
+                    width: 300px;
+                    font-size: 18px;
+                }
+
+                @media (max-width: 992px) {
+                    height: 50px;
+                    width: 250px;
+                    font-size: 14px;
+                    border-radius: 25px
+                }
+            }              
+        }
+    }
+}

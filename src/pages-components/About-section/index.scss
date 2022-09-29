@@ -1,0 +1,96 @@
+.about-wrapper {
+    height: 100vh;
+    min-height: 100vh;
+    
+    
+    @media (max-width: 1400px) {
+        padding: 40px 0;
+        justify-content: space-between !important;
+    }
+
+    @media (max-width: 992px) {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .about-container {
+        @media (max-width: 992px) {
+            padding: 40px 0;
+        }
+
+        &__profile-image {
+            position: relative;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            h4{
+                font-family: 'Panchang-medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -0.025em;
+                text-transform: uppercase;
+                position: absolute;
+                width: fit-content;
+                right: -340px;
+                top: 0;
+
+                @media (max-width: 1400px) {
+                    font-size: 32px;
+                    line-height: 1;
+                    right: -320px;
+                }
+
+                @media (max-width: 1080px) {
+                    right: unset;
+                    left: 0;
+                    line-height: 1;
+                    font-size: 24px;
+                    top: -20px;
+                }
+            }
+        }
+        &__content {
+            padding-left: 44px !important;
+
+            @media (max-width: 992px) {
+                padding-left: 0 !important;
+                padding-top: 20px;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 120%;
+                letter-spacing: -0.055em;
+
+                @media (max-width: 1400px) {
+                    font-size: 26px;
+                }
+
+                @media (max-width: 992px) {
+                    font-size: 20px;
+                }
+            }
+
+            p:first-child {
+                margin-bottom: 24px;
+                
+                @media (max-width: 1400px) {
+                    margin-bottom: 18px;
+                }
+
+                @media (max-width: 992px) {
+                    margin-bottom: 18px;
+                }
+            }
+        }
+    }
+} 

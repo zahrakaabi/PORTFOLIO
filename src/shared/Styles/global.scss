@@ -1,0 +1,97 @@
+@import './variables.scss';
+
+// STYLES
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $primary-color;
+}
+
+.fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.centered {
+    margin: 0 auto !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-columns {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.w-max {
+    width: 100%;
+}
+
+.max-w {
+    max-width: 100% !important;
+}
+
+/* -------------- ANIMATIONS ------------- */
+@keyframes animateGetInTouch {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
