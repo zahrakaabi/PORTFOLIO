@@ -38,8 +38,10 @@
                 }
             }
 
-            &:hover .project-title {
-                display: none;
+            @media (min-width: 992px) {
+                &:hover .project-title {
+                    display: none;
+                }
             }
             
             &:hover .marquee_project {
@@ -62,8 +64,11 @@
                 font-size: 76px;
                 line-height: 1;
                 letter-spacing: -0.025em;
-                position: absolute;
-                left: 0;
+
+                @media (min-width: 992px) {
+                    position: absolute;
+                    left: 0;
+                }
 
                 @media (max-width: 1400px) {
                     font-size: 66px;

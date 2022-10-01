@@ -33,6 +33,7 @@ function About() {
             xxl={8} xl={8} lg={8} md={7} sm={12} xs={12}>
                 <p>I’am zahra, graduated from higher school of digital economy, Passionate about web developement and design, always eager to learn and share knowledge.</p>
                 <p>My Job is to create catchy, modern and responsive portfolio for YOU and i do integrate the given designs using reactsJs / Gatsby</p>
+                <a className="flex justify-center items-center" href="">DOWNLOAD CV</a>
             </Col>
         </Row>
     </Container>
