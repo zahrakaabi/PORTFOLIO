@@ -1,0 +1,99 @@
+@import '../shared/Styles/variables.scss';
+
+/* ------------ INTRO --------------- */
+.intro {
+    width: 100%;
+    z-index: -1;
+    height: 100vh;
+    background-color: #222222;
+    animation-fill-mode: forwards !important;
+    animation: slide-out-container 6s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.8s;
+
+    h1,
+    .words span {
+        font-size: 32px;
+        z-index: -11;
+        color: #ffffff;
+        font-family: "Panchang-semi-bold";
+        text-transform: uppercase;
+    }
+
+    .words {
+        height: 50px;
+        overflow: hidden;
+        margin-top: 1rem;
+        
+        span {
+            display: block;
+            height: 100%;
+            padding-left: 15px;
+            animation: spin_words 6s infinite;
+        }
+
+        span:first-of-type {
+            color: #FA58C3;
+        }
+        
+        span:nth-of-type(2) {
+            color: #ff9100;
+        }
+        
+        span:last-of-type {
+            color: #01c6e9;
+        }
+    }
+}
+
+/* ---------- PORTFOLIO ------------- */
+.hero-section {
+    height: 100vh;
+
+    .srcoll-down {
+        height: 48px;
+
+        h3 {
+            font-family: $ff-secondary;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            
+            @media (max-width: 1390px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 992px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+/* --------- ANIMATIONS ----------- */
+@keyframes slide-out-container {
+    0% {
+        height: 100vh;
+    }
+
+    40% {
+        height: 100vh;
+    }
+
+    100% {
+        height: 0;
+    }
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(-200%);
+    }
+}
