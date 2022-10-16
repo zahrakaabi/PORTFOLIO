@@ -1,0 +1,45 @@
+.ui-designs-wrapper {
+    padding: 100px 0;
+
+    .ui-design-container {
+        width: 100%;
+
+        img {
+            width: 500px;
+            height: 100%;
+
+            @media (max-width: 1025px) {
+                width: 100%;
+            }
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            mix-blend-mode: multiply;
+            font-family: 'Panchang-bold';
+        }
+
+        p {
+            font-family: "Inter";
+        }
+    }
+
+    .ui-design-container:not(:first-child) {
+        margin-top: -80px;
+
+        @media (max-width: 1025px) {
+            margin-top: 3rem;
+        }
+    }
+
+    .ui-design-container:nth-child(even) {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        
+        @media (max-width: 1025px) {
+            display: block;
+        }
+    }
+}

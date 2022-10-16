@@ -17,15 +17,15 @@ import { WEB_PROJECTS } from '../../../shared/Helpers/FakeAPIs/webProjects';
 import './index.scss';
 
 /* -------------------------------------------------------- */
-/*                      HERO SECTION                        */
+/*                    WEB DEV PROJECTS                      */
 /* -------------------------------------------------------- */
 function Projects() {
   /* *********************** RENDERING ******************** */
   return (
     <Container className='project-wrapper fluid'>
-      {WEB_PROJECTS?.map((project) => {
+      {WEB_PROJECTS?.map((project, index) => {
         return (
-        <Container className="project-container flex justify-between items-center fluid">
+        <Container className="project-container flex justify-between items-center fluid" key={index}>
           <Container className="project-content flex items-center fluid">
             <h1 className="project-content__rank">{project.rank}</h1>
             <video className="project-content__project-video"controls>
