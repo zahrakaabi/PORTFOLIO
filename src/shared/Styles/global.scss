@@ -13,6 +13,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #ff83f385, rgba(21, 79, 254, 0.2));
+}
+
 body {
     position: relative;
     overflow-x: hidden;
