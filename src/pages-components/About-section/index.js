@@ -20,7 +20,7 @@ import './index.scss';
 function About() {
   /* *********************** RENDERING ******************** */
   return (
-    <Container className='about-wrapper flex flex-columns justify-evenly fluid'>
+    <Container id="about" className='about-wrapper flex flex-columns justify-evenly fluid'>
         <SectionTitle title="ABOUT" />
         <Row className="about-container fluid">
             <Col className="about-container__profile-image fluid" 

@@ -36,15 +36,15 @@ function Header() {
                 <Hidden xs sm md lg>
                     <Container className='links flex fluid'>
                         <ul className='links__useful-links'>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/#">Projects</a></li>
-                            <li><a href="/#">Services</a></li>
+                            <li><a href="/#about">About</a></li>
+                            <li><a href="/projects">Projects</a></li>
+                            <li><a href="/#services">Services</a></li>
                         </ul>
                         <ul className='links__social-media-links'>
-                            <li><a href="/" target="blank">Dribbble</a></li>
-                            <li><a href="/" target="blank">Github</a></li>
-                            <li><a href="/" target="blank">Linkedin</a></li>
-                            <li><a href="/#">Contact</a></li>
+                            <li><a href="https://dribbble.com/zahra13" target="blank">Dribbble</a></li>
+                            <li><a href="https://github.com/zahrakaabi" target="blank">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/zahra-kaabi/" target="blank">Linkedin</a></li>
+                            <li><a href="/#contact">Contact</a></li>
                         </ul>
                     </Container>
                 </Hidden>

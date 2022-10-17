@@ -21,7 +21,7 @@ import './index.scss';
 function Services() {
   /* *********************** RENDERING ******************** */
   return (
-    <Container className="services-wrapper flex flex-columns justify-between fluid">
+    <Container id="services" className="services-wrapper flex flex-columns justify-between fluid">
         <SectionTitle title="SERVICES" japaneeseTitle="ウェブ開発者" />
         <Row className="services-container fluid">
             <Col className="services-container__content fluid" xxl={8} xl={8} lg={7} md={8} sm={12} xs={12}>

@@ -12,6 +12,7 @@ import FOLLOW_ARROW from '../../images/Icons/follow-arrow.svg';
 
 // Local Components
 import SectionTitle from '../Section-title';
+import MessageSentPopUp from './message-sent-pop-up';
 
 // Styles
 import './index.scss';
@@ -21,6 +22,7 @@ import './index.scss';
 /* -------------------------------------------------------- */
 function ContactMe() {
     const FORM = useRef();
+    const [popUpIsOpen, setPopUpIsOpen] = useState(false);
 
     /* ----------- SEND COLLECTED DATA IN EMAIL ----------- */
     const SendCollectedDataInEmail = (e) => {
@@ -31,6 +33,7 @@ function ContactMe() {
         FORM.current,
         'W9S2HDH6yI7WEmEdC')
         .then((result) => {
+            setPopUpIsOpen(!popUpIsOpen);
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
@@ -39,7 +42,9 @@ function ContactMe() {
 
   /* *********************** RENDERING ******************** */
   return (
-    <Container className="contact-wrapper flex flex-columns justify-between fluid">
+    <>
+        {popUpIsOpen && <MessageSentPopUp setPopUpIsOpen={setPopUpIsOpen} />}
+        <Container id="contact" className="contact-wrapper flex flex-columns justify-between fluid">
         <SectionTitle title="CONTACT --- ME" japaneeseTitle="ウェブ開発者" />
         <Row className="contact-container fluid">
             <Col className="contact-container__content flex items-end fluid" xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>
@@ -77,6 +82,7 @@ function ContactMe() {
             </Col>
         </Row>
     </Container>
+    </>
   );
 }
 
