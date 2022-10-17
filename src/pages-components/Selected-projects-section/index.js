@@ -44,7 +44,7 @@ function SelectedProjects() {
                         <img src={MOVIE_HYPE_PROJECT} alt="wartch-go_project_name" />
                     </Container>
                 </Hidden>
-                <a href="/#" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
+                <a href="https://github.com/zahrakaabi13/Movie-application-usig-react-js" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
             </div>
             <div className='project-item flex justify-between items-center'>
                 <h1 className='project-title'>03/ OBSESSION</h1>
@@ -54,7 +54,7 @@ function SelectedProjects() {
                         <img src={OBSESSION_PROJECT} alt="wartch-go_project_name" />
                     </Container>
                 </Hidden>
-                <a href="/#" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
+                <a href="https://github.com/zahrakaabi13/Chef-d-oeuvre" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
             </div>
         </Container>
     </Container>

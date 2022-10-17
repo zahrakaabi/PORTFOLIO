@@ -24,7 +24,7 @@ function Footer() {
     return (
         <Container className='footer max-w fluid'>
             <Container className={`centered ${IS_MOBILE ? '' : 'fluid'}`}>
-                <a className="scroll-up flex items-center" href="/">
+                <a className="scroll-up flex items-center" href="/#hero">
                     <img src={SCROLL_UP} alt="scroll-up-icon" />
                     <h4>SCROLL UP</h4>
                 </a>
@@ -32,22 +32,22 @@ function Footer() {
                 <Row className="social-media fluid">
                     <Col className="social-media__link flex items-center fluid" xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                         <h1>LINKEDIN</h1>
-                        <a href="#" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-linkedin" /></a>
+                        <a href="https://www.linkedin.com/in/zahra-kaabi/" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-linkedin" /></a>
                     </Col>
                     
                     <Col className="social-media__link flex items-center fluid" xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                         <h1>GITHUB</h1>
-                        <a href="#" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-github" /></a>
+                        <a href="https://github.com/zahrakaabi" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-github" /></a>
                     </Col>
                     
                     <Col className="social-media__link flex items-center fluid" xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                         <h1>MEDIUM</h1>
-                        <a href="#" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-medium" /></a>
+                        <a href="https://zahrakaabi.medium.com/" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-medium" /></a>
                     </Col>
                     
                     <Col className="social-media__link flex items-center fluid" xxl={3} xl={3} lg={4} md={6} sm={12} xs={12}>
                         <h1>DRIBBBLE</h1>
-                        <a href="#" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-dribbble" /></a>
+                        <a href="https://dribbble.com/zahra13" traget="blank"><img src={SOCIAL_MEDIA_ICON} alt="go-to-dribbble" /></a>
                     </Col>
                 </Row>
 

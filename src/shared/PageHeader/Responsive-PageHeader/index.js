@@ -5,6 +5,9 @@
 // UI Lib Components
 import { Container } from 'react-grid-system';
 
+// PropType
+import PropTypes from 'prop-types';
+
 // Images
 import CLOSE_MENU from '../../../images/Icons/close.svg';
 
@@ -26,13 +29,18 @@ function ResponsiveHeader({isOpen, setIsOpen}) {
             </Container>
             
             <ul className='text-center'>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li onClick={() => setIsOpen(false)}><a href="/#about">About</a></li>
+                <li onClick={() => setIsOpen(false)}><a href="/projects">Projects</a></li>
+                <li onClick={() => setIsOpen(false)}><a href="/#services">Services</a></li>
+                <li onClick={() => setIsOpen(false)}><a href="/#contact">Contact</a></li>
             </ul>
         </Container>
     )
+}
+
+ResponsiveHeader.propTypes = {
+    isOpen: PropTypes.bool.isRequired,
+    setIsOpen: PropTypes.func.isRequired,
 }
 
 export default ResponsiveHeader;

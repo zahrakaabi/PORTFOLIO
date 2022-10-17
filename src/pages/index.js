@@ -46,7 +46,7 @@ function IndexPage() {
         </Container>
       </Container>
       <Container className={`centered ${IS_MOBILE ? '' : 'fluid'}`}>
-        <Container className='hero-section flex flex-columns justify-between fluid'>
+        <Container id="hero" className='hero-section flex flex-columns justify-between fluid'>
           <Header />
           <Hero />
           <div className='srcoll-down flex justify-between w-max'>
