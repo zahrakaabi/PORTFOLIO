@@ -2,7 +2,8 @@
 // @ TO DO : Implement links -------------------------------------> done
 // @ TO DO : Fix font appearing ----------------------------------> done
 // @ TO DO : Style scroll-bar ------------------------------------> done
-// @ TO DO : Fix responsive landing page + intro
+// @ TO DO : Fix responsive website intro ------------------------> done
+// @ TO DO : Fix responsive landing page
 // @ TO DO : Implemnt edited projects videos
 // @ TO DO : Implement ART section GIF
 // @ TO DO : Implement PWA

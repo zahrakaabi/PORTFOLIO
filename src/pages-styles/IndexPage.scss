@@ -16,6 +16,10 @@
         color: #ffffff;
         font-family: "Panchang-semi-bold";
         text-transform: uppercase;
+
+        @media (max-width: 524px) {
+            font-size: 18px;
+        }
     }
 
     .words {
