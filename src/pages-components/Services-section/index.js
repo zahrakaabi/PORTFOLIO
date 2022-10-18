@@ -9,7 +9,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import SectionTitle from '../Section-title';
 
 // Images
-import SERVICES_IMG from '../../images/Services-section/services.png';
+import SERVICES_IMG from '../../images/Services-section/services.gif';
 import GET_IN_TOUCH_IMG from '../../images/Hero-section/get-in-touch.png';
 
 // Styles

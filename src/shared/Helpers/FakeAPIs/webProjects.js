@@ -2,11 +2,11 @@
 /*                 DEPENDENCIES                  */
 /* --------------------------------------------- */
 // Videos_links
-import MOVIE_HYPE from '../../../videos/projects-page/video1.webm';
-import BOHO from '../../../videos/projects-page/video2.webm';
-import OBSESSION from '../../../videos/projects-page/video2.webm';
-import WATCH_GO from '../../../videos/projects-page/video4.webm';
-import POALANE from '../../../videos/projects-page/video3.webm';
+import MOVIE_HYPE from '../../../videos/projects-page/video1.mp4';
+import BOHO from '../../../videos/projects-page/video2.mp4';
+import OBSESSION from '../../../videos/projects-page/video2.mp4';
+import WATCH_GO from '../../../videos/projects-page/video4.mp4';
+import POILANE from '../../../videos/projects-page/video3.mp4';
 
 
 /* --------------------------------------------- */
@@ -68,8 +68,8 @@ export const WEB_PROJECTS = [
     {
         id: 5,
         rank: "05",
-        video: POALANE,
-        name: "POALANE",
+        video: POILANE,
+        name: "POILANE",
         description : "Restaurent website with CRUD functionalities",
         designer: "zahra kaabi",
         developer: "zahra kaabi",
