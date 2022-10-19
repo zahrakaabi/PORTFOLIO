@@ -28,12 +28,15 @@ function ContactMe() {
     const SendCollectedDataInEmail = (e) => {
         e.preventDefault();
         
+        const FORM_USER = document.getElementById("create_user_form");
+
         emailjs.sendForm('service_swigaow', 
         'template_idzatc9',
         FORM.current,
         'W9S2HDH6yI7WEmEdC')
         .then((result) => {
             setPopUpIsOpen(!popUpIsOpen);
+            FORM_USER.reset();
             console.log(result.text);
         }, (error) => {
             console.log(error.text);

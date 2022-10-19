@@ -50,8 +50,8 @@ function IndexPage() {
           <Header />
           <Hero />
           <div className='srcoll-down flex justify-between w-max'>
-              <h3>BASED IN TUNISIA</h3>
-              <h3>SCROLL DOWN</h3>
+              <h4>BASED IN TUNISIA</h4>
+              <h4>SCROLL DOWN</h4>
           </div>
           <CustomCursor/>
         </Container>

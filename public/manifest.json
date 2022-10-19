@@ -34,7 +34,7 @@
     
     {
       "src": "logo-512x512.png",
-      "size": "512x512",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
