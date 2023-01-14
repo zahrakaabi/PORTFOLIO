@@ -47,7 +47,7 @@ function ContactMe() {
   return (
     <>
         {popUpIsOpen && <MessageSentPopUp setPopUpIsOpen={setPopUpIsOpen} />}
-        <Container id="contact" className="contact-wrapper flex flex-columns justify-between fluid">
+        <Container id="contact" className="contact-wrapper seperate-section fluid">
         <SectionTitle title="CONTACT --- ME" japaneeseTitle="ウェブ開発者" />
         <Row className="contact-container fluid">
             <Col className="contact-container__content flex items-end fluid" xxl={6} xl={6} lg={6} md={6} sm={12} xs={12}>

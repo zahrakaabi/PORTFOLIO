@@ -23,7 +23,7 @@ import './index.scss';
 function SelectedProjects() {
   /* *********************** RENDERING ******************** */
   return (
-    <Container className='projects-wrapper flex flex-columns justify-between fluid'>
+    <Container className='projects-wrapper seperate-section fluid'>
         <SectionTitle title="SELECTED PROJECTS" />
         <Container className='projects-container fluid'>
             <div className='project-item flex justify-between items-center'>
@@ -34,7 +34,7 @@ function SelectedProjects() {
                         <img src={WATCH_GO_PROJECT} alt="wartch-go_project_name" />
                     </Container>
                 </Hidden>
-                <a href="/#" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
+                <a href="/#" target="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
             </div>
             <div className='project-item flex justify-between items-center'>
                 <h1 className='project-title'>02/ MOVIE-HYPE</h1>
@@ -44,7 +44,7 @@ function SelectedProjects() {
                         <img src={MOVIE_HYPE_PROJECT} alt="wartch-go_project_name" />
                     </Container>
                 </Hidden>
-                <a href="https://github.com/zahrakaabi13/Movie-application-usig-react-js" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
+                <a href="https://github.com/zahrakaabi13/Movie-application-usig-react-js" target="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
             </div>
             <div className='project-item flex justify-between items-center'>
                 <h1 className='project-title'>03/ OBSESSION</h1>
@@ -54,7 +54,7 @@ function SelectedProjects() {
                         <img src={OBSESSION_PROJECT} alt="wartch-go_project_name" />
                     </Container>
                 </Hidden>
-                <a href="https://github.com/zahrakaabi13/Chef-d-oeuvre" traget="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
+                <a href="https://github.com/zahrakaabi13/Chef-d-oeuvre" target="blank"><img src={NEXT_ARROW} alt="Next-arrow" /></a>
             </div>
         </Container>
     </Container>

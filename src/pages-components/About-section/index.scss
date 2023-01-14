@@ -1,19 +1,4 @@
 .about-wrapper {
-    height: 100vh;
-    min-height: 100vh;
-    
-    
-    @media (max-width: 1400px) {
-        padding: 40px 0;
-        justify-content: space-between !important;
-    }
-
-    @media (max-width: 992px) {
-        margin-top: 60px;
-        padding: 0;
-        height: fit-content;
-    }
-
     .about-container {
         @media (max-width: 992px) {
             padding: 40px 0;
@@ -29,11 +14,7 @@
             }
 
             h4{
-                font-family: 'Panchang-medium';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 36px;
-                line-height: 44px;
+                font: normal 500 36px/44px 'Panchang-medium';
                 letter-spacing: -0.025em;
                 text-transform: uppercase;
                 position: absolute;
@@ -65,11 +46,7 @@
             }
 
             p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 32px;
-                line-height: 120%;
+                font: normal 400 32px/120% 'Inter';
                 letter-spacing: -0.055em;
 
                 @media (max-width: 1400px) {
@@ -95,11 +72,7 @@
                 background: #222222;
                 border-radius: 50px;
         
-                font-family: 'Panchang-semi-bold';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 32px;
+                font: normal 600 24px/32px 'Panchang-semi-bold';
                 letter-spacing: -0.04em;
                 color: #FFFFFF;
                 

@@ -29,16 +29,20 @@ function IndexPage() {
 
   // Hide Intro Content after delay 
   setTimeout(() => {
+    const HIDE_TEXT = document.getElementById('hide-text');
+    HIDE_TEXT.style.display = 'none';
+  }, 8000);
+  setTimeout(() => {
     const INTRO_CONTENT = document.getElementById('intro-content');
     INTRO_CONTENT.style.display = 'none';
-  }, 8350);
+  }, 10000);
 
   /* *********************** RENDERING ******************** */
   return (
     <>
       <Container id="intro-content" className="intro flex flex-columns items-center justify-center max-w fluid">
         <h1>こんにちは, ザハラです</h1>
-        <h1>OHAYO, i'am Zahra</h1>
+        <h1 id="hide-text">OHAYO, i'am Zahra</h1>
         <Container className='words text-center fluid'>
           <span> UI Designer &#9996;</span>
           <span>  Web Integrator &#9996;</span>

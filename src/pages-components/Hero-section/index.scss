@@ -23,7 +23,7 @@
     }
     
     &__content {
-        padding-bottom: 48px;
+        padding-bottom: 108px;
 
         h3 {
             font-weight: 400;
@@ -38,12 +38,8 @@
         }
     
         h1 {
-            font-family: 'Panchang-extra-bold';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 72px;
+            font: normal 700 72px/112% 'Panchang-extra-bold';
             width: 90%;
-            line-height: 112%;
             margin-bottom: 37px;
     
             @media (max-width: 1390px) {
@@ -65,11 +61,7 @@
             background: #222222;
             border-radius: 50px;
     
-            font-family: 'Panchang-semi-bold';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 24px;
-            line-height: 32px;
+            font: normal 600 24px/32px 'Panchang-semi-bold';
             letter-spacing: -0.04em;
             color: #FFFFFF;
             

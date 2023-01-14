@@ -21,13 +21,13 @@ import './index.scss';
 function Services() {
   /* *********************** RENDERING ******************** */
   return (
-    <Container id="services" className="services-wrapper flex flex-columns justify-between fluid">
+    <Container id="services" className="services-wrapper seperate-section fluid">
         <SectionTitle title="SERVICES" japaneeseTitle="ウェブ開発者" />
         <Row className="services-container fluid">
             <Col className="services-container__content fluid" xxl={8} xl={8} lg={7} md={8} sm={12} xs={12}>
                 <h2>MY ART</h2>
                 <h4>ASIDE FROM CODING I CAN HELP YOU IN DESIGN KNOWLEDGE AND DIGITAL PSYCHOLOGY</h4>
-                <button type="submit">CONTACT ME</button>
+                <button type="submit"><a href="/projects">VIEW PROJECTS</a></button>
             </Col>
 
             <Col className="services-container__ART-work fluid" xxl={4} xl={4} lg={5} md={4} sm={12} xs={12}>

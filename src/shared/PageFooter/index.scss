@@ -41,11 +41,7 @@
         }
 
         h4 {
-            font-family: 'Panchang-bold';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 86px;
+            font: normal 700 36px/86px 'Panchang-bold';
             letter-spacing: -0.025em;
             color: #959595;
 
@@ -65,11 +61,7 @@
 
         &__link {
             h1 {
-                font-family: 'Panchang-bold';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 42px;
-                line-height: 86px;
+                font: normal 700 42px/86px 'Panchang-bold';
                 letter-spacing: -0.025em;
                 color: #000000;
 
@@ -108,11 +100,7 @@
 
     .copyright {
         h4 {
-            font-family: 'Panchang-medium';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 86px;
+            font: normal 500 24px/86px 'Panchang-medium';
             letter-spacing: -0.025em;
             color: #000000;
             
