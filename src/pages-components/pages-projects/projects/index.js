@@ -3,7 +3,7 @@
 /* -------------------------------------------------------- */
 // Packages
 // UI Lib Components
-import { Container, Col } from 'react-grid-system';
+import { Container } from 'react-grid-system';
 
 // UI Local Components
 

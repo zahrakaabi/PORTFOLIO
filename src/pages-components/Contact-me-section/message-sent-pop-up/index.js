@@ -30,7 +30,7 @@ function MessageSentPopUp({ setPopUpIsOpen }) {
         setTimeout(function() {
             setHidePopUp(!hidePopUp);
         }, 3000)
-    }, [])
+    }, [hidePopUp])
 
   /* *********************** RENDERING ******************** */
   return (
