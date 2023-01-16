@@ -15,6 +15,9 @@ import Services from '../pages-components/Services-section';
 import ContactMe from '../pages-components/Contact-me-section';
 import Footer from '../shared/PageFooter';
 
+// SEO
+import SEO from '../SEO';
+
 // Styles
 import '../shared/Styles/global.scss';
 import '../shared/Styles/typography.scss';
@@ -40,6 +43,13 @@ function IndexPage() {
   /* *********************** RENDERING ******************** */
   return (
     <>
+      <SEO
+        title='ZAHRA KAABI'
+        description='Junior React web developer and UI Designer'
+        name='Zahra kaabi'
+        type='@zahrakaabi13'
+      />
+
       <Container id="intro-content" className="intro flex flex-columns items-center justify-center max-w fluid">
         <h1>こんにちは, ザハラです</h1>
         <h1 id="hide-text">OHAYO, i'am Zahra</h1>

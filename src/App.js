@@ -3,6 +3,7 @@
 /* -------------------------------------------------------- */
 // Packages
 // UI Lib Components
+import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 // Local Components
@@ -13,14 +14,18 @@ import ProjectsPage from './pages/projectsPage';
 /*                          APP                             */
 /* -------------------------------------------------------- */
 function App() {
+  const helmetContext = {};
+
   /* *********************** RENDERING ******************** */
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<IndexPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider context={helmetContext}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<IndexPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

@@ -23,7 +23,7 @@ function Hero() {
         <Container className="hero-wrapper__content fluid">
             <h3>ウェブ開発者</h3>
             <h1>WEB DEVELOPMENT from scratch / Custom Code / Design</h1>
-            <a href="/#contact"><button>CONTACT ME</button></a>
+            <a href="/projects"><button>VIEW PROJECTS</button></a>
         </Container>
 
         <img src={GET_IN_TOUCH} alt="" />

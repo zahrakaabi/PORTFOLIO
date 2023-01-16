@@ -13,6 +13,9 @@ import Projects from '../pages-components/pages-projects/projects';
 import UIDesignProjects from '../pages-components/pages-projects/ui-design-projects';
 import Footer from '../shared/PageFooter';
 
+// SEO
+import SEO from '../SEO';
+
 // Images
 import YELLOW_ARROW from '../images/Icons/yellow-down-arrow.png';
 import ORANGE_ARROW from '../images/Icons/orange-down-arrow.png';
@@ -33,6 +36,13 @@ function ProjectsPage() {
   /* *********************** RENDERING ******************** */
   return (
     <>
+      <SEO
+        title='PROJECTS | ZAHRA KAABI'
+        description='Junior React web developer and UI Designer'
+        name='Zahra kaabi'
+        type='@zahrakaabi13'
+      />
+
       <Container className={`page-projects centered ${IS_MOBILE ? '' : 'fluid'}`}>
         <Header />
         <SectionTitle title="PROJECTS" />
